@@ -6,8 +6,9 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 text-center">
-          <h1>Our Services</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h1>Nuestros Servicios</h1>
+          <p>Tenemos una variedad de yates disponibles para rentar para uso personal,
+          eventos,reuniones de cualquier ámbito.</p>
         </div>
       </div>
     </div>
@@ -23,8 +24,8 @@
             <span class="flaticon-car"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Car Key</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta por día</h3>
+            <p>Estan disponibles para rentarlos por 24 horas.</p>
           </div>
         </div>
       </div>
@@ -34,8 +35,8 @@
             <span class="flaticon-valet-1"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Car Key</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta para eventos</h3>
+            <p>Se brindara servicio especial para invitados.</p>
           </div>
         </div>
       </div>
@@ -45,8 +46,8 @@
             <span class="flaticon-key"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Car Key</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta pora Tours</h3>
+            <p>Se renta por determinadas horas para poder hacer un paseo guiado</p>
           </div>
         </div>
       </div>
@@ -56,8 +57,8 @@
             <span class="flaticon-car-1"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Repair</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta por mes</h3>
+            <p>Se podrán realizar rentas de yates por 1 mes</p>
           </div>
         </div>
       </div>
@@ -67,8 +68,8 @@
             <span class="flaticon-traffic"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Car Accessories</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Incluyen Accesorios</h3>
+            <p>Todos lo yates incluyen equipo de seguridad y adornos visibles</p>
           </div>
         </div>
       </div>
@@ -78,8 +79,8 @@
             <span class="flaticon-valet"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Own a Car</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Términos y Condiciones</h3>
+            <p>Realizamos contrato para cualquier tipo de renta.Sugerimos leer los términos y condiciones para la renta de Yates</p>
           </div>
         </div>
       </div>
@@ -90,30 +91,30 @@
 <div class="container site-section mb-5">
   <div class="row justify-content-center text-center">
     <div class="col-7 text-center mb-5">
-      <h2>How it works</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+      <h2>Proceso de Rentas de Yates</h2>
+      <p>Le sugerimos llevar paso a paso, el proceso para que tenga una mejor experiencia en nuestros servicios</p>
     </div>
   </div>
   <div class="how-it-works d-flex">
     <div class="step">
       <span class="number"><span>01</span></span>
-      <span class="caption">Time &amp; Place</span>
+      <span class="caption">Hora &amp; Lugar</span>
     </div>
     <div class="step">
       <span class="number"><span>02</span></span>
-      <span class="caption">Car</span>
+      <span class="caption">Elegir Yate</span>
     </div>
     <div class="step">
       <span class="number"><span>03</span></span>
-      <span class="caption">Details</span>
+      <span class="caption">Checar los detalles</span>
     </div>
     <div class="step">
       <span class="number"><span>04</span></span>
-      <span class="caption">Checkout</span>
+      <span class="caption">Realizar renta</span>
     </div>
     <div class="step">
       <span class="number"><span>05</span></span>
-      <span class="caption">Done</span>
+      <span class="caption">Verificar el estado del Yate</span>
     </div>
 
   </div>

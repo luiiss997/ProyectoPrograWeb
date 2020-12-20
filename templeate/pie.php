@@ -7,15 +7,24 @@
                         de 30 años de experiencia rentando Yates de lujo para nuestros clientes.
                     </p>
                 </div>
-                <div class="col-lg-8 ml-auto">
+                <div class="col-lg-9 ml-auto">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-6">
                             <h2 class="footer-heading mb-4">Siguenos en nuestras redes Sociales</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Instagram</a></li>
                                 <li><a href="#">Twitter</a></li>
                                 <li><a href="#">Youtube</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">Contactanos</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Email</a></li>
+                                <li>infoyates@yates.com</li>
+                                <li><a href="#">Telefóno</a></li>
+                                <li>729-307-84-45</li>
                             </ul>
                         </div>
                     </div>
