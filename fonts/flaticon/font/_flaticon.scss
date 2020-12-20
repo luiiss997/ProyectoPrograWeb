@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 18/07/2019 07:36
+    Creation date: 20/12/2020 04:20
     */
 
     @font-face {
@@ -37,16 +37,28 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-car:before { content: "\f100"; }
-.flaticon-car-1:before { content: "\f101"; }
-.flaticon-valet:before { content: "\f102"; }
-.flaticon-valet-1:before { content: "\f103"; }
-.flaticon-traffic:before { content: "\f104"; }
-.flaticon-key:before { content: "\f105"; }
+    .flaticon-bote:before { content: "\f100"; }
+.flaticon-barco-de-transbordador:before { content: "\f101"; }
+.flaticon-yate:before { content: "\f102"; }
+.flaticon-yate-1:before { content: "\f103"; }
+.flaticon-yate-2:before { content: "\f104"; }
+.flaticon-yate-3:before { content: "\f105"; }
+.flaticon-yate-4:before { content: "\f106"; }
+.flaticon-en-renta:before { content: "\f107"; }
+.flaticon-calendario:before { content: "\f108"; }
+.flaticon-calendario-1:before { content: "\f109"; }
+.flaticon-boya-salvavidas:before { content: "\f10a"; }
+.flaticon-buscar:before { content: "\f10b"; }
     
-    $font-Flaticon-car: "\f100";
-    $font-Flaticon-car-1: "\f101";
-    $font-Flaticon-valet: "\f102";
-    $font-Flaticon-valet-1: "\f103";
-    $font-Flaticon-traffic: "\f104";
-    $font-Flaticon-key: "\f105";
+    $font-Flaticon-bote: "\f100";
+    $font-Flaticon-barco-de-transbordador: "\f101";
+    $font-Flaticon-yate: "\f102";
+    $font-Flaticon-yate-1: "\f103";
+    $font-Flaticon-yate-2: "\f104";
+    $font-Flaticon-yate-3: "\f105";
+    $font-Flaticon-yate-4: "\f106";
+    $font-Flaticon-en-renta: "\f107";
+    $font-Flaticon-calendario: "\f108";
+    $font-Flaticon-calendario-1: "\f109";
+    $font-Flaticon-boya-salvavidas: "\f10a";
+    $font-Flaticon-buscar: "\f10b";
