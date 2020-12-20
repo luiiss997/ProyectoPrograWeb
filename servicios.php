@@ -21,7 +21,7 @@
       <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1 dark">
           <span class="service-1-icon">
-            <span class="flaticon-car"></span>
+            <span class="flaticon-yate"></span>
           </span>
           <div class="service-1-contents">
             <h3>Renta por día</h3>
@@ -32,7 +32,7 @@
       <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1 dark">
           <span class="service-1-icon">
-            <span class="flaticon-valet-1"></span>
+            <span class="flaticon-bote"></span>
           </span>
           <div class="service-1-contents">
             <h3>Renta para eventos</h3>
@@ -43,7 +43,7 @@
       <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1 dark">
           <span class="service-1-icon">
-            <span class="flaticon-key"></span>
+            <span class="flaticon-calendario"></span>
           </span>
           <div class="service-1-contents">
             <h3>Renta pora Tours</h3>
@@ -54,7 +54,7 @@
       <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1 dark">
           <span class="service-1-icon">
-            <span class="flaticon-car-1"></span>
+            <span class="flaticon-en-renta"></span>
           </span>
           <div class="service-1-contents">
             <h3>Renta por mes</h3>
@@ -65,7 +65,7 @@
       <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1 dark">
           <span class="service-1-icon">
-            <span class="flaticon-traffic"></span>
+            <span class="flaticon-boya-salvavidas"></span>
           </span>
           <div class="service-1-contents">
             <h3>Incluyen Accesorios</h3>
@@ -76,7 +76,7 @@
       <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1 dark">
           <span class="service-1-icon">
-            <span class="flaticon-valet"></span>
+            <span class="flaticon-buscar"></span>
           </span>
           <div class="service-1-contents">
             <h3>Términos y Condiciones</h3>
