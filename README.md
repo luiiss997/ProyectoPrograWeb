@@ -1,2 +1,0 @@
-# ProyectoPrograWeb
- Renta de Yates

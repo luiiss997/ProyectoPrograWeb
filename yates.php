@@ -6,8 +6,10 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 text-center">
-          <h1>Our For Rent Cars</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h1>Nuestros Yates para Rentar</h1>
+          <p>Selecciona el Yate de tu agrado y siguie el proceso de renta, en pocos minutos renta tu yate.</p>
+          <br>
+          <p>Todos nuestros yates cuentan con equipo de sonido, cocina, radar, gps, equipo de pesca y snorkel.</p>
         </div>
       </div>
     </div>
@@ -19,10 +21,10 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="#">Range Rover S64 Coupe</a></h3>
+              <h3><a href="renta_yate.php">Azimut 116</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -30,28 +32,28 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <div class="rent-price"><span>$250/</span>day</div>
+              <div class="rent-price"><span>$7,800 USD/</span>4hrs.</div>
             </div>
             <ul class="specs">
               <li>
-                <span>Doors</span>
+                <span>Camarotes</span>
                 <span class="spec">4</span>
               </li>
               <li>
-                <span>Seats</span>
-                <span class="spec">5</span>
+                <span>Baños</span>
+                <span class="spec">4</span>
               </li>
               <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
+                <span>Medida</span>
+                <span class="spec">116 Pies</span>
               </li>
               <li>
-                <span>Minium age</span>
-                <span class="spec">18 years</span>
+                <span>Capacidad</span>
+                <span class="spec">12 personas</span>
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="contact.html" class="btn btn-primary">Rent Now</a>
+              <a href="renta_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -59,10 +61,10 @@
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="#">Range Rover S64 Coupe</a></h3>
+              <h3><a href="renta_yate.php">Broward 112</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -70,149 +72,28 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <div class="rent-price"><span>$250/</span>day</div>
+              <div class="rent-price"><span>$5,690 USD/</span>4hrs.</div>
             </div>
             <ul class="specs">
               <li>
-                <span>Doors</span>
-                <span class="spec">4</span>
+                <span>Camarotes</span>
+                <span class="spec">3</span>
               </li>
               <li>
-                <span>Seats</span>
-                <span class="spec">5</span>
+                <span>Baños</span>
+                <span class="spec">3</span>
               </li>
               <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
+                <span>Medida</span>
+                <span class="spec">112 Pies</span>
               </li>
               <li>
-                <span>Minium age</span>
-                <span class="spec">18 years</span>
+                <span>Capacidad</span>
+                <span class="spec">12 personas</span>
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="contact.html" class="btn btn-primary">Rent Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="#">Range Rover S64 Coupe</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$250/</span>day</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Doors</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Seats</span>
-                <span class="spec">5</span>
-              </li>
-              <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
-              </li>
-              <li>
-                <span>Minium age</span>
-                <span class="spec">18 years</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="contact.html" class="btn btn-primary">Rent Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="#">Range Rover S64 Coupe</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$250/</span>day</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Doors</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Seats</span>
-                <span class="spec">5</span>
-              </li>
-              <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
-              </li>
-              <li>
-                <span>Minium age</span>
-                <span class="spec">18 years</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="contact.html" class="btn btn-primary">Rent Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="#">Range Rover S64 Coupe</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$250/</span>day</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Doors</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Seats</span>
-                <span class="spec">5</span>
-              </li>
-              <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
-              </li>
-              <li>
-                <span>Minium age</span>
-                <span class="spec">18 years</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="contact.html" class="btn btn-primary">Rent Now</a>
+              <a href="renta_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -221,10 +102,10 @@
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="#">Range Rover S64 Coupe</a></h3>
+              <h3><a href="renta_yate.php">Manhattan 75</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -232,33 +113,154 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <div class="rent-price"><span>$250/</span>day</div>
+              <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
             </div>
             <ul class="specs">
               <li>
-                <span>Doors</span>
-                <span class="spec">4</span>
+                <span>Camarotes</span>
+                <span class="spec">3</span>
               </li>
               <li>
-                <span>Seats</span>
-                <span class="spec">5</span>
+                <span>Baños</span>
+                <span class="spec">2</span>
               </li>
               <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
+                <span>Medida</span>
+                <span class="spec">72 Pies</span>
               </li>
               <li>
-                <span>Minium age</span>
-                <span class="spec">18 years</span>
+                <span>Capacidad</span>
+                <span class="spec">10 Personas</span>
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="contact.html" class="btn btn-primary">Rent Now</a>
+              <a href="renta_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
       </div>
 
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="item-1">
+          <a href="renta_yate.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+          <div class="item-1-contents">
+            <div class="text-center">
+              <h3><a href="renta_yate.php">Azimut 116</a></h3>
+              <div class="rating">
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+              </div>
+              <div class="rent-price"><span>$7,800 USD/</span>4hrs.</div>
+            </div>
+            <ul class="specs">
+              <li>
+                <span>Camarotes</span>
+                <span class="spec">4</span>
+              </li>
+              <li>
+                <span>Baños</span>
+                <span class="spec">4</span>
+              </li>
+              <li>
+                <span>Medida</span>
+                <span class="spec">116 Pies</span>
+              </li>
+              <li>
+                <span>Capacidad</span>
+                <span class="spec">12 personas</span>
+              </li>
+            </ul>
+            <div class="d-flex action">
+              <a href="renta_yate.php" class="btn btn-primary">Rentar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="item-1">
+          <a href="renta_yate.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+          <div class="item-1-contents">
+            <div class="text-center">
+              <h3><a href="renta_yate.php">Broward 112</a></h3>
+              <div class="rating">
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+              </div>
+              <div class="rent-price"><span>$5,690 USD/</span>4hrs.</div>
+            </div>
+            <ul class="specs">
+              <li>
+                <span>Camarotes</span>
+                <span class="spec">3</span>
+              </li>
+              <li>
+                <span>Baños</span>
+                <span class="spec">3</span>
+              </li>
+              <li>
+                <span>Medida</span>
+                <span class="spec">112 Pies</span>
+              </li>
+              <li>
+                <span>Capacidad</span>
+                <span class="spec">12 personas</span>
+              </li>
+            </ul>
+            <div class="d-flex action">
+              <a href="renta_yate.php" class="btn btn-primary">Rentar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="item-1">
+          <a href="renta_yate.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+          <div class="item-1-contents">
+            <div class="text-center">
+              <h3><a href="renta_yate.php">Manhattan 75</a></h3>
+              <div class="rating">
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+              </div>
+              <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
+            </div>
+            <ul class="specs">
+              <li>
+                <span>Camarotes</span>
+                <span class="spec">3</span>
+              </li>
+              <li>
+                <span>Baños</span>
+                <span class="spec">2</span>
+              </li>
+              <li>
+                <span>Medida</span>
+                <span class="spec">72 Pies</span>
+              </li>
+              <li>
+                <span>Capacidad</span>
+                <span class="spec">10 Personas</span>
+              </li>
+            </ul>
+            <div class="d-flex action">
+              <a href="renta_yate.php" class="btn btn-primary">Rentar</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="col-12">
         <span class="p-3">1</span>
@@ -270,36 +272,8 @@
   </div>
 </div>
 
-<div class="container site-section mb-5">
-  <div class="row justify-content-center text-center">
-    <div class="col-7 text-center mb-5">
-      <h2>How it works</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
-    </div>
-  </div>
-  <div class="how-it-works d-flex">
-    <div class="step">
-      <span class="number"><span>01</span></span>
-      <span class="caption">Time &amp; Place</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>02</span></span>
-      <span class="caption">Car</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>03</span></span>
-      <span class="caption">Details</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>04</span></span>
-      <span class="caption">Checkout</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>05</span></span>
-      <span class="caption">Done</span>
-    </div>
 
-  </div>
-</div>
+<br><br>
+
 
 <?php include("templeate/pie.php"); ?>

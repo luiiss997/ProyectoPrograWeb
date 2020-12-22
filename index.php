@@ -4,369 +4,221 @@
 <div class="ftco-blocks-cover-1">
   <div class="ftco-cover-1 overlay" style="background-image: url('images/hero_1.jpg')">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5">
-          <div class="feature-car-rent-box-1">
-            <h3>Range Rover S7</h3>
-            <ul class="list-unstyled">
-              <li>
-                <span>Doors</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Seats</span>
-                <span class="spec">6</span>
-              </li>
-              <li>
-                <span>Lugage</span>
-                <span class="spec">2 Suitcase/2 Bags</span>
-              </li>
-              <li>
-                <span>Transmission</span>
-                <span class="spec">Automatic</span>
-              </li>
-              <li>
-                <span>Minium age</span>
-                <span class="spec">Automatic</span>
-              </li>
-            </ul>
-            <div class="d-flex align-items-center bg-light p-3">
-              <span>$150/day</span>
-              <a href="contact.html" class="ml-auto btn btn-primary">Rent Now</a>
-            </div>
-          </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h1>Bienvenido</h1>
+          <p>Encuentra el mejor yate que se adecue a tus necesidades y rentalo de manera fácil y rápida.</p>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="site-section pt-0 pb-0 bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-
-        <form class="trip-form">
-          <div class="row align-items-center mb-4">
-            <div class="col-md-6">
-              <h3 class="m-0">Begin your trip here</h3>
-            </div>
-            <div class="col-md-6 text-md-right">
-              <span class="text-primary">32</span> <span>cars available</span></span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="form-group col-md-3">
-              <label for="cf-1">Where you from</label>
-              <input type="text" id="cf-1" placeholder="Your pickup address" class="form-control">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="cf-2">Where you go</label>
-              <input type="text" id="cf-2" placeholder="Your drop-off address" class="form-control">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="cf-3">Journey date</label>
-              <input type="text" id="cf-3" placeholder="Your pickup address" class="form-control datepicker px-3">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="cf-4">Return date</label>
-              <input type="text" id="cf-4" placeholder="Your pickup address" class="form-control datepicker px-3">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <input type="submit" value="Submit" class="btn btn-primary">
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="site-section bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <h3>Our Offer</h3>
-        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
-        <p>
-          <a href="#" class="btn btn-primary custom-prev">Previous</a>
-          <span class="mx-2">/</span>
-          <a href="#" class="btn btn-primary custom-next">Next</a>
-        </p>
-      </div>
-      <div class="col-lg-9">
-
-
-
-
-        <div class="nonloop-block-13 owl-carousel">
-          <div class="item-1">
-            <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-            <div class="item-1-contents">
-              <div class="text-center">
-                <h3><a href="#">Range Rover S64 Coupe</a></h3>
-                <div class="rating">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
+  <div class="site-section bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h3>Nuestros Yates</h3>
+          <p class="mb-4">Todos nuestros yates cuentan con equipo de sonido, cocina, radar, gps, equipo de pesca y snorkel.</p>
+          <p>
+            <a href="#" class="btn btn-primary custom-prev">Anterior</a>
+            <span class="mx-2">/</span>
+            <a href="#" class="btn btn-primary custom-next">Siguiente</a>
+          </p>
+        </div>
+        <div class="col-lg-9">
+          <div class="nonloop-block-13 owl-carousel">
+            <div class="item-1">
+              <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <div class="item-1-contents">
+                <div class="text-center">
+                  <h3><a href="#">Azimut 116</a></h3>
+                  <div class="rating">
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                  </div>
+                  <div class="rent-price"><span>$7,800 USD/</span>4hrs.</div>
                 </div>
-                <div class="rent-price"><span>$250/</span>day</div>
-              </div>
-              <ul class="specs">
-                <li>
-                  <span>Doors</span>
-                  <span class="spec">4</span>
-                </li>
-                <li>
-                  <span>Seats</span>
-                  <span class="spec">5</span>
-                </li>
-                <li>
-                  <span>Transmission</span>
-                  <span class="spec">Automatic</span>
-                </li>
-                <li>
-                  <span>Minium age</span>
-                  <span class="spec">18 years</span>
-                </li>
-              </ul>
-              <div class="d-flex action">
-                <a href="contact.html" class="btn btn-primary">Rent Now</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="item-1">
-            <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-            <div class="item-1-contents">
-              <div class="text-center">
-                <h3><a href="#">Range Rover S64 Coupe</a></h3>
-                <div class="rating">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
+                <ul class="specs">
+                  <li>
+                    <span>Camarotes</span>
+                    <span class="spec">4</span>
+                  </li>
+                  <li>
+                    <span>Baños</span>
+                    <span class="spec">4</span>
+                  </li>
+                  <li>
+                    <span>Medida</span>
+                    <span class="spec">116 Pies</span>
+                  </li>
+                  <li>
+                    <span>Capacidad</span>
+                    <span class="spec">12 personas</span>
+                  </li>
+                </ul>
+                <div class="d-flex action">
+                  <a href="#" class="btn btn-primary">Rentar</a>
                 </div>
-                <div class="rent-price"><span>$250/</span>day</div>
               </div>
-              <ul class="specs">
-                <li>
-                  <span>Doors</span>
-                  <span class="spec">4</span>
-                </li>
-                <li>
-                  <span>Seats</span>
-                  <span class="spec">5</span>
-                </li>
-                <li>
-                  <span>Transmission</span>
-                  <span class="spec">Automatic</span>
-                </li>
-                <li>
-                  <span>Minium age</span>
-                  <span class="spec">18 years</span>
-                </li>
-              </ul>
-              <div class="d-flex action">
-                <a href="contact.html" class="btn btn-primary">Rent Now</a>
+            </div>
+
+
+
+            <div class="item-1">
+              <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <div class="item-1-contents">
+                <div class="text-center">
+                  <h3><a href="#">Broward 112</a></h3>
+                  <div class="rating">
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                  </div>
+                  <div class="rent-price"><span>$5,690 USD/</span>4hrs.</div>
+                </div>
+                <ul class="specs">
+                  <li>
+                    <span>Camarotes</span>
+                    <span class="spec">3</span>
+                  </li>
+                  <li>
+                    <span>Baños</span>
+                    <span class="spec">3</span>
+                  </li>
+                  <li>
+                    <span>Medida</span>
+                    <span class="spec">112 Pies</span>
+                  </li>
+                  <li>
+                    <span>Capacidad</span>
+                    <span class="spec">12 personas</span>
+                  </li>
+                </ul>
+                <div class="d-flex action">
+                  <a href="#" class="btn btn-primary">Rentar</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-1">
+              <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <div class="item-1-contents">
+                <div class="text-center">
+                  <h3><a href="#">Manhattan 75</a></h3>
+                  <div class="rating">
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                    <span class="icon-star text-warning"></span>
+                  </div>
+                  <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
+                </div>
+                <ul class="specs">
+                  <li>
+                    <span>Camarotes</span>
+                    <span class="spec">3</span>
+                  </li>
+                  <li>
+                    <span>Baños</span>
+                    <span class="spec">2</span>
+                  </li>
+                  <li>
+                    <span>Medida</span>
+                    <span class="spec">72 Pies</span>
+                  </li>
+                  <li>
+                    <span>Capacidad</span>
+                    <span class="spec">10 Personas</span>
+                  </li>
+                </ul>
+                <div class="d-flex action">
+                  <a href="#" class="btn btn-primary">Rentar</a>
+                </div>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
   </div>
-</div>
 
-<div class="site-section section-3" style="background-image: url('images/hero_2.jpg');">
+  <div class="site-section section-3" style="background-image: url('images/hero_2.jpg');">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2 class="text-white">Our services</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1">
           <span class="service-1-icon">
-            <span class="flaticon-car-1"></span>
+            <span class="flaticon-yate"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Repair</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta por día</h3>
+            <p>Estan disponibles para rentarlos por 24 horas.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1">
           <span class="service-1-icon">
-            <span class="flaticon-traffic"></span>
+            <span class="flaticon-bote"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Car Accessories</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta para eventos</h3>
+            <p>Se brindara servicio especial para invitados.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-4 mb-lg-5">
         <div class="service-1">
           <span class="service-1-icon">
-            <span class="flaticon-valet"></span>
+            <span class="flaticon-calendario"></span>
           </span>
           <div class="service-1-contents">
-            <h3>Own a Car</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+            <h3>Renta pora Tours</h3>
+            <p>Se renta por determinadas horas para poder hacer un paseo guiado</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-5">
+        <div class="service-1">
+          <span class="service-1-icon">
+            <span class="flaticon-en-renta"></span>
+          </span>
+          <div class="service-1-contents">
+            <h3>Renta por mes</h3>
+            <p>Se podrán realizar rentas de yates por 1 mes</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-5">
+        <div class="service-1">
+          <span class="service-1-icon">
+            <span class="flaticon-boya-salvavidas"></span>
+          </span>
+          <div class="service-1-contents">
+            <h3>Incluyen Accesorios</h3>
+            <p>Todos lo yates incluyen equipo de seguridad y adornos visibles</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-5">
+        <div class="service-1">
+          <span class="service-1-icon">
+            <span class="flaticon-buscar"></span>
+          </span>
+          <div class="service-1-contents">
+            <h3>Términos y Condiciones</h3>
+            <p>Realizamos contrato para cualquier tipo de renta.Sugerimos leer los términos y condiciones para la renta de Yates</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-
-<div class="container site-section mb-5">
-  <div class="row justify-content-center text-center">
-    <div class="col-7 text-center mb-5">
-      <h2>How it works</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
-    </div>
   </div>
-  <div class="how-it-works d-flex">
-    <div class="step">
-      <span class="number"><span>01</span></span>
-      <span class="caption">Time &amp; Place</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>02</span></span>
-      <span class="caption">Car</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>03</span></span>
-      <span class="caption">Details</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>04</span></span>
-      <span class="caption">Checkout</span>
-    </div>
-    <div class="step">
-      <span class="number"><span>05</span></span>
-      <span class="caption">Done</span>
-    </div>
 
-  </div>
-</div>
-
-
-<div class="site-section bg-light">
-  <div class="container">
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-7 text-center mb-5">
-        <h2>Customer Testimony</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <div class="testimonial-2">
-          <blockquote class="mb-4">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
-          </blockquote>
-          <div class="d-flex v-card align-items-center">
-            <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
-            <span>Mike Fisher</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <div class="testimonial-2">
-          <blockquote class="mb-4">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
-          </blockquote>
-          <div class="d-flex v-card align-items-center">
-            <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-            <span>Jean Stanley</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <div class="testimonial-2">
-          <blockquote class="mb-4">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
-          </blockquote>
-          <div class="d-flex v-card align-items-center">
-            <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-3">
-            <span>Katie Rose</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="site-section bg-white">
-  <div class="container">
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-7 text-center mb-5">
-        <h2>Our Blog</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="post-entry-1 h-100">
-          <a href="single.html">
-            <img src="images/post_1.jpg" alt="Image" class="img-fluid">
-          </a>
-          <div class="post-entry-1-contents">
-
-            <h2><a href="single.html">The best car rent in the entire planet</a></h2>
-            <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="post-entry-1 h-100">
-          <a href="single.html">
-            <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-          </a>
-          <div class="post-entry-1-contents">
-
-            <h2><a href="single.html">The best car rent in the entire planet</a></h2>
-            <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="post-entry-1 h-100">
-          <a href="single.html">
-            <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-          </a>
-          <div class="post-entry-1-contents">
-
-            <h2><a href="single.html">The best car rent in the entire planet</a></h2>
-            <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<?php include("templeate/pie.php"); ?>
+  <?php include("templeate/pie.php"); ?>
