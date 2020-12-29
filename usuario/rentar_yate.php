@@ -1,8 +1,9 @@
-<?php include("templeate/encabezado.php"); ?>
-<?php include("templeate/menu.php"); ?>
+<?php include("templeate_usuario/encabezado.php"); ?>
+<?php include("templeate_usuario/menu_usuario.php"); ?>
+
 
 <div class="ftco-blocks-cover-1">
-    <div class="ftco-cover-1 overlay innerpage" style="background-image: url('images/hero_2.jpg')">
+    <div class="ftco-cover-1 overlay innerpage" style="background-image: url('../images/hero_2.jpg')">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 text-center">
@@ -17,7 +18,7 @@
     <div class="row">
 
         <div class="col-md-5" style="margin-left: 50px;">
-            <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+            <a href="#"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
         </div>
 
         <div class="col-md-5">
@@ -95,4 +96,4 @@
     </div>
 </div>
 
-<?php include("templeate/pie.php"); ?>
+<?php include("templeate_usuario/pie.php"); ?>

@@ -1,8 +1,9 @@
-<?php include("templeate/encabezado.php"); ?>
-<?php include("templeate/menu.php"); ?>
+<?php include("templeate_usuario/encabezado.php"); ?>
+<?php include("templeate_usuario/menu_usuario.php"); ?>
+
 
 <div class="ftco-blocks-cover-1">
-    <div class="ftco-cover-1 overlay innerpage" style="background-image: url('images/hero_2.jpg')">
+    <div class="ftco-cover-1 overlay innerpage" style="background-image: url('../images/hero_2.jpg')">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 text-center">
@@ -14,32 +15,32 @@
 </div>
 <br>
 
+<?php session_start(); ?>
 
 <div class="container">
     <div class="text-center">
-        <h3>Datos de Usuario</h3>
+        <h3>Datos de Usuario:</h3>
         <h4>
             Nombre:
         </h4>
-        <h5>Carlos</h5>
+        <h5><?php echo $_SESSION['nombre']; ?></h5>
         <h4>
             Apellidos:
         </h4>
-        <h5>Slim</h5>
+        <h5><?php echo $_SESSION['apellidos']; ?></h5>
         <h4>
             Edad:
         </h4>
-        <h5>49</h5>
+        <h5><?php echo $_SESSION['edad']; ?></h5>
         <h4>
             Correo:
         </h4>
-        <h5>carso174@gmail.com</h5>
+        <h5><?php echo $_SESSION['email']; ?></h5>
     </div>
     <br>
 
     <div class="text-center">
-        <h3>Yates Rentados</h3>
-
+        <h3>Yates Rentados:</h3>
         <table class="table">
             <thead>
                 <tr>
@@ -63,4 +64,4 @@
 </div>
 
 
-<?php include("templeate/pie.php"); ?>
+<?php include("templeate_usuario/pie.php"); ?>

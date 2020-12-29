@@ -1,8 +1,8 @@
-<?php include("templeate/encabezado.php"); ?>
-<?php include("templeate/menu.php"); ?>
+<?php include("templeate_usuario/encabezado.php"); ?>
+<?php include("templeate_usuario/menu_usuario.php"); ?>
 
 <div class="ftco-blocks-cover-1">
-  <div class="ftco-cover-1 overlay" style="background-image: url('images/hero_1.jpg')">
+  <div class="ftco-cover-1 overlay" style="background-image: url('../images/hero_1.jpg')">
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 text-center">
@@ -28,10 +28,10 @@
         <div class="col-lg-9">
           <div class="nonloop-block-13 owl-carousel">
             <div class="item-1">
-              <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <a href="reservar_yate.php"><img src="../images/img_1.jpg" alt="Image" class="img-fluid"></a>
               <div class="item-1-contents">
                 <div class="text-center">
-                  <h3><a href="#">Azimut 116</a></h3>
+                  <h3><a href="reservar_yate.php">Azimut 116</a></h3>
                   <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -60,16 +60,17 @@
                   </li>
                 </ul>
                 <div class="d-flex action">
-                  <a href="yates.php"" class="btn btn-primary">Rentar</a>
+                  <a href="reservar_yate.php" class="btn btn-primary">Rentar</a>
                 </div>
               </div>
             </div>
 
+
             <div class="item-1">
-              <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <a href="reservar_yate.php"><img src="../images/img_2.jpg" alt="Image" class="img-fluid"></a>
               <div class="item-1-contents">
                 <div class="text-center">
-                  <h3><a href="#">Broward 112</a></h3>
+                  <h3><a href="reservar_yate.php">Broward 112</a></h3>
                   <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -98,16 +99,16 @@
                   </li>
                 </ul>
                 <div class="d-flex action">
-                  <a href="yates.php" class="btn btn-primary">Rentar</a>
+                  <a href="reservar_yate.php" class="btn btn-primary">Rentar</a>
                 </div>
               </div>
             </div>
 
             <div class="item-1">
-              <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <a href="reservar_yate.php"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
               <div class="item-1-contents">
                 <div class="text-center">
-                  <h3><a href="#">Manhattan 75</a></h3>
+                  <h3><a href="reservar_yate.php">Manhattan 75</a></h3>
                   <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -136,7 +137,7 @@
                   </li>
                 </ul>
                 <div class="d-flex action">
-                  <a href="yates.php"" class="btn btn-primary">Rentar</a>
+                  <a href="reservar_yate.php" class="btn btn-primary">Rentar</a>
                 </div>
               </div>
             </div>
@@ -146,7 +147,7 @@
     </div>
   </div>
 
-  <div class="site-section section-3" style="background-image: url('images/hero_2.jpg');">
+  <div class="site-section section-3" style="background-image: url('../images/hero_2.jpg');">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 mb-4 mb-lg-5">
@@ -219,4 +220,4 @@
   </div>
   </div>
 
-  <?php include("templeate/pie.php"); ?>
+  <?php include("templeate_usuario/pie.php"); ?>

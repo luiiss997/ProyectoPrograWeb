@@ -1,8 +1,9 @@
-<?php include("templeate/encabezado.php"); ?>
-<?php include("templeate/menu.php"); ?>
+<?php include("templeate_usuario/encabezado.php"); ?>
+<?php include("templeate_usuario/menu_usuario.php"); ?>
+
 
 <div class="ftco-blocks-cover-1">
-  <div class="ftco-cover-1 overlay innerpage" style="background-image: url('images/hero_2.jpg')">
+  <div class="ftco-cover-1 overlay innerpage" style="background-image: url('../images/hero_2.jpg')">
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 text-center">
@@ -19,12 +20,14 @@
 <div class="site-section bg-light">
   <div class="container">
     <div class="row">
+
+    <!--info yate-->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="login.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="../images/img_1.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="login.php">Azimut 116</a></h3>
+              <h3><a href="renta_yate.php">Azimut 116</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -53,18 +56,19 @@
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
       </div>
+      <!-- fin info yate-->
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="login.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="../images/img_2.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="login.php">Broward 112</a></h3>
+              <h3><a href="renta_yate.php">Broward 112</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -93,7 +97,7 @@
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -102,10 +106,10 @@
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="login.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="login.php">Manhattan 75</a></h3>
+              <h3><a href="renta_yate.php">Manhattan 75</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -134,7 +138,7 @@
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -143,10 +147,10 @@
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="login.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="../images/img_1.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="login.php">Azimut 116</a></h3>
+              <h3><a href="renta_yate.php">Azimut 116</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -175,7 +179,7 @@
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -183,10 +187,10 @@
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="login.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="../images/img_2.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="login.php">Broward 112</a></h3>
+              <h3><a href="renta_yate.php">Broward 112</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -215,7 +219,7 @@
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -224,10 +228,10 @@
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="login.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+          <a href="renta_yate.php"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="login.php">Manhattan 75</a></h3>
+              <h3><a href="renta_yate.php">Manhattan 75</a></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -256,7 +260,7 @@
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
@@ -276,4 +280,4 @@
 <br><br>
 
 
-<?php include("templeate/pie.php"); ?>
+<?php include("templeate_usuario/pie.php"); ?>

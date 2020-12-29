@@ -7,7 +7,7 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 text-center">
           <h1>Inicio de Sesión</h1>
-          <p>Iniciar sesión sera necesario para realizar la renta de Yates y para la administración.</p>
+          <p>Iniciar sesión para rentar tu yate.</p>
         </div>
       </div>
     </div>
@@ -24,27 +24,51 @@
     </div>
     <div class="row text-center justify-content-center">
       <div class="col-lg-12 mb-5">
-        <form action="#" method="post">
-
+        <p id="error" style="color: red;"></p>
           <div class="form-group row">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="text" class="form-control" placeholder="Email" id="correol">
             </div>
           </div>
           <div class="form-group row">
             <div class="col-md-12">
-              <input type="password" class="form-control" placeholder="Contraseña">
+              <input type="password" class="form-control" placeholder="Contraseña" id="passwordl">
             </div>
           </div>
-          <div class="form-group row">
-            <div class="col-md-6 mr-auto">
-              <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Iniciar Sesión">
+            <div class="text-center">
+               <button class="btn btn-primary" id="submit" onclick="login()">Iniciar Sesión</button>
             </div>
-          </div>
-        </form>
       </div>
+      <p>¿No estás registrado? Regístrate <a href="registro.php">Aquí</a></p>
     </div>
   </div>
 </div>
+
+
+<script type="text/javascript">
+  function login() {
+    correo = $('#correol').val();
+    pw = $('#passwordl').val();
+
+      cadena = "correo=" + correo +
+        "&pw=" + pw;
+
+      $.ajax({
+        type: "POST",
+        url: "php/iniciar.php",
+        data: cadena,
+        success: function(r) {
+          if (r == 1) { //Cuidado
+            $('#error').text('Usuario o contraseña incorrectos');
+           // alert(r);
+          } else {
+           // alert(r);
+            location.href = "usuario/bienvenido.php";
+          }
+        }
+      });
+    
+  }
+</script>
 
 <?php include("templeate/pie.php"); ?>
