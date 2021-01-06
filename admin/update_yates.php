@@ -1,7 +1,7 @@
 <?php include("templeate_admin/encabezado.php"); ?>
 <?php include("templeate_admin/menu_admin.php"); ?>
 
-
+<?php require_once 'datos.html';?>
 <div class="ftco-blocks-cover-1">
   <div class="ftco-cover-1 overlay innerpage" style="background-image: url('../images/hero_2.jpg')">
     <div class="container">
@@ -45,7 +45,7 @@
             <label for="nom">Nombre</label>
             </div>
             <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+              <input type="text" class="form-control"  id="nombre" name="nombre">
             </div>
           </div>
           <div class="form-group row">

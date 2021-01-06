@@ -38,14 +38,14 @@
     
     <div class="row text-center justify-content-center">
       <div class="col-lg-12 mb-5">
-        
+      <form method="post" enctype="multipart/form-data">
           <div class="form-group row">
             <div class="col-md-3 mb-4 mb-lg-0">
             <br>
             <label for="nom">Nombre</label>
             </div>
             <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+              <input type="text" class="form-control" placeholder="Nombre" name="nombre">
             </div>
           </div>
           <div class="form-group row">
@@ -54,16 +54,16 @@
             <label for="nom">Precio</label>
             </div>
             <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="Precio" id="nombre">
+              <input type="number" class="form-control" placeholder="Precio" name="precio">
             </div>
           </div>
           <div class="form-group row">
             <div class="col-md-3 mb-4 mb-lg-0">
             <br>
-            <label for="nom">Carrotes</label>
+            <label for="nom">Camarrotes</label>
             </div>
             <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="Carrotes" id="nombre">
+              <input type="number" class="form-control" placeholder="Carrotes" name="camarrotes">
             </div>
           </div>
           <div class="form-group row">
@@ -72,7 +72,7 @@
             <label for="nom">Baños</label>
             </div>
             <div class="col-md-9">
-              <input type="number" class="form-control" placeholder="Numero de Baños" id="nombre">
+              <input type="number" class="form-control" placeholder="Numero de Baños" name="banos">
             </div>
           </div>
           <div class="form-group row">
@@ -81,7 +81,7 @@
             <label for="nom">Medidas</label>
             </div>
             <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="altura x largo x ancho" id="nombre">
+              <input type="number" class="form-control" placeholder="Metros" name="medidas">
             </div>
           </div>
           <div class="form-group row">
@@ -90,7 +90,7 @@
             <label for="nom">Capacidad</label>
             </div>
             <div class="col-md-9">
-              <input type="text" class="form-control" placeholder="Capacidad kg" id="nombre">
+              <input type="number" class="form-control" placeholder="Capacidad kg" name="capacidad">
             </div>
           </div>
           <div class="form-group row">
@@ -99,15 +99,24 @@
             <label for="nom">Cantidad</label>
             </div>
             <div class="col-md-9">
-              <input type="number" class="form-control" placeholder="Cantidad" id="nombre">
+              <input type="number" class="form-control" placeholder="Cantidad" name="cantidad">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-3 mb-4 mb-lg-0">
+            <br>
+            <label for="nom">Foto</label>
+            </div>
+            <div class="col-md-9">
+            <input type="file" name="foto" class="form-control" accept="image/*">
             </div>
           </div>
           <div class="form-group row">
             <div class="col-lg-12 mr-auto">
-              <button class="btn btn-primary" id="submit" onclick="registro()">Agregar</button>
+              <button class="btn btn-primary"  type="submit" id="submit" name="submit">Agregar</button>
             </div>
           </div>
-       
+       </form>
       </div>
     </div>
   </div>
@@ -115,5 +124,33 @@
 </div>
 </div>
 
+
+<?php
+   if (isset($_POST["submit"])){
+     print_r ($_FILES);
+      if(insertar($_POST['nombre'],$_POST['precio'],$_POST['camarrotes'],$_POST['banos'],$_POST['medidas'],$_POST['capacidad'],$_POST['cantidad'],$_FILES)){
+        echo " <br> Se alamaceno correctamente";
+      }else{
+        echo " <br>no  Se alamaceno correctamente";
+      }
+   }
+   
+   function insertar($nombre,$precio, $camarrotes, $banos,$medidas,$capacidad,$cantidad,$imagen){
+   $ruta ='img/'.$nombre.'.png';
+   move_uploaded_file($imagen['foto']['tmp_name'],$ruta);
+
+      $servidor = "localhost";
+      $usuarioBD = "root";
+      $pwdBD = "";
+      $nomBD = "proyectoweb";
+      $db = mysqli_connect($servidor, $usuarioBD, $pwdBD, $nomBD) or die("Problemas unu");
+   
+      $sql="INSERT INTO yates (nombre,precio,camarotes,banos,medidas,capacidad,cantidad,foto_ruta) VALUES ('$nombre','$precio','$camarrotes','$banos','$medidas','$capacidad','$cantidad','$ruta')";
+
+      return $db->query($sql);
+   }
+   
+
+?>
 
 <?php include("templeate_admin/pie.php"); ?>
