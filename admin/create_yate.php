@@ -49,7 +49,7 @@
                   <label for="nom">Precio</label>
                 </div>
                 <div class="col-md-9">
-                  <input type="number" class="form-control" placeholder="Precio por 4hrs" name="precio">
+                  <input type="number" class="form-control" placeholder="Precio por día" name="precio">
                 </div>
               </div>
               <div class="form-group row">
