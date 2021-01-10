@@ -50,6 +50,9 @@
     correo = $('#correol').val();
     pw = $('#passwordl').val();
 
+    if (correo=="admin@yates.com") {
+      location.href = "admin/administracion.php";
+    }else{
       cadena = "correo=" + correo +
         "&pw=" + pw;
 
@@ -67,7 +70,7 @@
           }
         }
       });
-    
+    }
   }
 </script>
 

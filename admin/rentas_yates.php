@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 text-center">
-                    <h1>Yates en Existencia</h1>
+                    <h1>Yates en Renta</h1>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                 <tr>
                     <th>Persona</th>
                     <th>Modelo</th>
-                    <th>Precio por 4 horas</th>
+                    <th>Precio día</th>
                     <th>Inicio de la renta</th>
                     <th>Fin de la renta</th>
                     <th>Precio total</th>

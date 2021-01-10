@@ -1,7 +1,6 @@
 <?php include("templeate_usuario/encabezado.php"); ?>
 <?php include("templeate_usuario/menu_usuario.php"); ?>
 
-
 <div class="ftco-blocks-cover-1">
     <div class="ftco-cover-1 overlay innerpage" style="background-image: url('../images/hero_2.jpg')">
         <div class="container">
@@ -15,15 +14,13 @@
 </div>
 <br>
 <div class="containter">
-    <div class="row">
-
+    <div class="row" style="margin-left: 250px;">
         <div class="col-md-5" style="margin-left: 50px;">
-            <a href="#"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
+            <img src="../admin/<?php echo $_GET['foto']; ?>" alt="Image" class="img-fluid">
         </div>
-
         <div class="col-md-5">
             <div class="text-center">
-                <h3>Manhattan 75</h3>
+                <h3><?php echo $_GET['nombre']; ?></h3>
                 <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -31,28 +28,27 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                 </div>
-                <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
+                <div class="rent-price"><span>$<?php echo $_GET['precio']; ?> USD/</span>Por día.</div>
             </div>
             <ul class="specs">
                 <li>
                     <span>Camarotes</span>
-                    <span class="spec">3</span>
+                    <span class="spec"><?php echo $_GET['camarotes']; ?></span>
                 </li>
                 <li>
                     <span>Baños</span>
-                    <span class="spec">2</span>
+                    <span class="spec"><?php echo $_GET['banos']; ?></span>
                 </li>
                 <li>
                     <span>Medida</span>
-                    <span class="spec">72 Pies</span>
+                    <span class="spec"><?php echo $_GET['medidas']; ?> Pies</span>
                 </li>
                 <li>
                     <span>Capacidad</span>
-                    <span class="spec">10 Personas</span>
+                    <span class="spec"><?php echo $_GET['capacidad']; ?> Personas</span>
                 </li>
             </ul>
         </div>
-
     </div>
 </div>
 
@@ -65,7 +61,7 @@
                         <h3 class="m-0">Reserva ahora</h3>
                     </div>
                     <div class="col-md-6 text-md-right">
-                        <span class="text-primary">7</span> <span> Yates disponibles</span></span>
+                        <span class="text-primary"><?php echo $_GET['cantidad']; ?></span> <span> Yates disponibles</span></span>
                     </div>
                 </div>
                 <div class="row">
@@ -88,12 +84,43 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <button type="button" class="btn btn-primary">Reservar</button>
+                        <button type="button" class="btn btn-primary" onclick="reservar()">Reservar</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    function reservar() {
+        recogida = $('#cf-1').val();
+        entrega = $('#cf-2').val();
+        inicio = $('#cf-3').val();
+        regreso = $('#cf-4').val();
+        precio=<?php echo $_GET['precio']; ?> 
+        id_yate = <?php echo $_GET['id']; ?>
+
+        cadena = "id_yate=" + id_yate +
+            "&recogida=" + recogida +
+            "&entrega=" + entrega +
+            "&inicio=" + inicio +
+            "&regreso=" + regreso +
+            "&precio="+ precio;
+
+        $.ajax({
+            type: "POST",
+            url: "../php/rentar.php",
+            data: cadena,
+            success: function(r) {
+                if (r == 1) { //Cuidado
+                    alert("ERROR UNU" + r);
+                } else {
+                    alert("Registro Realizado con Éxito!" + r);
+                }
+            }
+        });
+    }
+</script>
 
 <?php include("templeate_usuario/pie.php"); ?>

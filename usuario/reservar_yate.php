@@ -21,13 +21,17 @@
   <div class="container">
     <div class="row">
 
-    <!--info yate-->
+     <!--info yate-->
+    <?php 
+    $link = new PDO('mysql:host=localhost;dbname=proyectoweb', 'root', ''); 
+    foreach ($link->query('SELECT * from yates') as $row){
+    ?>
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="item-1">
-          <a href="renta_yate.php"><img src="../images/img_1.jpg" alt="Image" class="img-fluid"></a>
+          <img src="../admin/<?php echo $row['foto_ruta'] ?>" alt="Image" class="img-fluid">
           <div class="item-1-contents">
             <div class="text-center">
-              <h3><a href="renta_yate.php">Azimut 116</a></h3>
+              <h3><?php echo $row['nombre'] ?></h3>
               <div class="rating">
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
@@ -35,236 +39,36 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <div class="rent-price"><span>$7,800 USD/</span>4hrs.</div>
+              <div class="rent-price"><span>$<?php echo $row['precio'] ?> USD/</span> Por día.</div>
             </div>
             <ul class="specs">
               <li>
                 <span>Camarotes</span>
-                <span class="spec">4</span>
+                <span class="spec"><?php echo $row['camarotes'] ?></span>
               </li>
               <li>
                 <span>Baños</span>
-                <span class="spec">4</span>
+                <span class="spec"><?php echo $row['banos'] ?></span>
               </li>
               <li>
                 <span>Medida</span>
-                <span class="spec">116 Pies</span>
+                <span class="spec"><?php echo $row['medidas'] ?></span>
               </li>
               <li>
                 <span>Capacidad</span>
-                <span class="spec">12 personas</span>
+                <span class="spec"><?php echo $row['capacidad'] ?></span>
               </li>
             </ul>
             <div class="d-flex action">
-              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
+              <a href="rentar_yate.php?id=<?php echo $row['id']; ?>&nombre=<?php echo $row['nombre']; ?>&precio=<?php echo $row['precio']; ?>&camarotes=<?php echo $row['camarotes'];
+              ?>&banos=<?php echo $row['banos']; ?>&medidas=<?php echo $row['medidas']; ?>&capacidad=<?php echo $row['capacidad']; ?>&cantidad=<?php echo $row['cantidad']; 
+              ?>&foto=<?php echo $row['foto_ruta']; ?>" class="btn btn-primary">Rentar</a>
             </div>
           </div>
         </div>
       </div>
+      <?php } ?>
       <!-- fin info yate-->
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="renta_yate.php"><img src="../images/img_2.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="renta_yate.php">Broward 112</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$5,690 USD/</span>4hrs.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">112 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="renta_yate.php"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="renta_yate.php">Manhattan 75</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">2</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">72 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">10 Personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="renta_yate.php"><img src="../images/img_1.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="renta_yate.php">Azimut 116</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$7,800 USD/</span>4hrs.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">116 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="renta_yate.php"><img src="../images/img_2.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="renta_yate.php">Broward 112</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$5,690 USD/</span>4hrs.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">112 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="renta_yate.php"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="renta_yate.php">Manhattan 75</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">2</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">72 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">10 Personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="rentar_yate.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div class="col-12">
         <span class="p-3">1</span>

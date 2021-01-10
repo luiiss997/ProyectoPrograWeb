@@ -20,18 +20,18 @@
           <h3>Nuestros Yates</h3>
           <p class="mb-4">Todos nuestros yates cuentan con equipo de sonido, cocina, radar, gps, equipo de pesca y snorkel.</p>
           <p>
-            <a href="#" class="btn btn-primary custom-prev">Anterior</a>
+            <a href="yates.php" class="btn btn-primary custom-prev">Anterior</a>
             <span class="mx-2">/</span>
-            <a href="#" class="btn btn-primary custom-next">Siguiente</a>
+            <a href="yates.php" class="btn btn-primary custom-next">Siguiente</a>
           </p>
         </div>
         <div class="col-lg-9">
           <div class="nonloop-block-13 owl-carousel">
             <div class="item-1">
-              <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <a href="yates.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
               <div class="item-1-contents">
                 <div class="text-center">
-                  <h3><a href="#">Azimut 116</a></h3>
+                  <h3><a href="yates.php">Azimut 116</a></h3>
                   <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -39,7 +39,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>$7,800 USD/</span>4hrs.</div>
+                  <div class="rent-price"><span>$7,800 USD/</span> Por Día.</div>
                 </div>
                 <ul class="specs">
                   <li>
@@ -66,10 +66,10 @@
             </div>
 
             <div class="item-1">
-              <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <a href="yates.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
               <div class="item-1-contents">
                 <div class="text-center">
-                  <h3><a href="#">Broward 112</a></h3>
+                  <h3><a href="yates.php">Broward 112</a></h3>
                   <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -77,7 +77,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>$5,690 USD/</span>4hrs.</div>
+                  <div class="rent-price"><span>$5,690 USD/</span> Por Día.</div>
                 </div>
                 <ul class="specs">
                   <li>
@@ -104,10 +104,10 @@
             </div>
 
             <div class="item-1">
-              <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <a href="yates.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
               <div class="item-1-contents">
                 <div class="text-center">
-                  <h3><a href="#">Manhattan 75</a></h3>
+                  <h3><a href="yates.php">Manhattan 75</a></h3>
                   <div class="rating">
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
@@ -115,7 +115,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>$4,380 USD/</span>4hrs.</div>
+                  <div class="rent-price"><span>$4,380 USD/</span> Por Día.</div>
                 </div>
                 <ul class="specs">
                   <li>
@@ -136,7 +136,7 @@
                   </li>
                 </ul>
                 <div class="d-flex action">
-                  <a href="yates.php"" class="btn btn-primary">Rentar</a>
+                  <a href="yates.php" class="btn btn-primary">Rentar</a>
                 </div>
               </div>
             </div>

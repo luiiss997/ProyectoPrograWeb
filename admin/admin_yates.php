@@ -65,11 +65,6 @@
         </div>
     </div>
 
-
-
-
-
-
 <div class="ftco-blocks-cover-1">
     <div class="ftco-cover-1 overlay innerpage" style="background-image: url('../images/hero_2.jpg')">
         <div class="container">
@@ -93,7 +88,7 @@ $link = new PDO('mysql:host=localhost;dbname=proyectoweb', 'root', '');
     <div class="row justify-content-center text-center">  
 
     <div class="col-lg-12 text-center">
-        <h3>Yates Rentados</h3>
+        <h3>Yates</h3>
         <br>
         <table class="table ">
            <thead>
@@ -105,7 +100,7 @@ $link = new PDO('mysql:host=localhost;dbname=proyectoweb', 'root', '');
                     <th>Medida</th>
                     <th>Capacidad</th>
                     <th>Cantidad</th>
-                    <th> Ruta de Foto</th>
+                    <th>Ruta de Foto</th>
                     <th>Acciones</th>
                 </tr>
             </thead>

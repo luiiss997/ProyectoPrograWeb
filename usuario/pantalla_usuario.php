@@ -40,12 +40,12 @@
     <br>
 
     <div class="text-center">
-        <h3>Yates Rentados:</h3>
+        <h3>Historial de yates rentados:</h3>
         <table class="table">
             <thead>
                 <tr>
                     <th>Modelo</th>
-                    <th>Precio por 4 horas</th>
+                    <th>Precio por día</th>
                     <th>Inicio de la renta</th>
                     <th>Fin de la renta</th>
                     <th>Precio total</th>
