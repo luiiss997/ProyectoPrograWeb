@@ -27,7 +27,7 @@
         <p id="error" style="color: red;"></p>
           <div class="form-group row">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Email" id="correol">
+              <input type="email" class="form-control" placeholder="Email" id="correol">
             </div>
           </div>
           <div class="form-group row">
@@ -63,6 +63,7 @@
         success: function(r) {
           if (r == 1) { //Cuidado
             $('#error').text('Usuario o contraseña incorrectos');
+            $('#passwordl').val("");
            // alert(r);
           } else {
            // alert(r);

@@ -39,7 +39,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>$7,800 USD/</span> Por Día.</div>
+                  <div class="rent-price"><span>$7,800 USD/</span>Por Día.</div>
                 </div>
                 <ul class="specs">
                   <li>
@@ -77,7 +77,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>$5,690 USD/</span> Por Día.</div>
+                  <div class="rent-price"><span>$5,690 USD/</span>Por Día.</div>
                 </div>
                 <ul class="specs">
                   <li>
@@ -115,7 +115,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>$4,380 USD/</span> Por Día.</div>
+                  <div class="rent-price"><span>$4,380 USD/</span>Por Día.</div>
                 </div>
                 <ul class="specs">
                   <li>

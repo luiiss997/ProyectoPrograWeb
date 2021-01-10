@@ -43,7 +43,7 @@
           </div>
           <div class="form-group row">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Email" id="correo">
+              <input type="email" class="form-control" placeholder="Email" id="correo">
             </div>
           </div>
           <div class="form-group row">

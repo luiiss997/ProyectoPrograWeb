@@ -39,7 +39,7 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <div class="rent-price"><span>$<?php echo $row['precio'] ?> USD/</span> Por día.</div>
+              <div class="rent-price"><span>$<?php echo $row['precio'] ?> USD/</span>Por día.</div>
             </div>
             <ul class="specs">
               <li>

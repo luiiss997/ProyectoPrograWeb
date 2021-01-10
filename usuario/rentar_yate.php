@@ -98,7 +98,7 @@
         entrega = $('#cf-2').val();
         inicio = $('#cf-3').val();
         regreso = $('#cf-4').val();
-        precio=<?php echo $_GET['precio']; ?> 
+        precio = <?php echo $_GET['precio']; ?>
         id_yate = <?php echo $_GET['id']; ?>
 
         cadena = "id_yate=" + id_yate +
@@ -106,7 +106,7 @@
             "&entrega=" + entrega +
             "&inicio=" + inicio +
             "&regreso=" + regreso +
-            "&precio="+ precio;
+            "&precio=" + precio;
 
         $.ajax({
             type: "POST",
@@ -117,6 +117,10 @@
                     alert("ERROR UNU" + r);
                 } else {
                     alert("Registro Realizado con Éxito!" + r);
+                    $('#cf-1').val("");
+                    $('#cf-2').val("");
+                    $('#cf-3').val("");
+                    $('#cf-4').val("");
                 }
             }
         });
