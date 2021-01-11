@@ -64,10 +64,10 @@ function actualizaDatos() {
     data: cadena,
     success: function (r) {
       if (r == 1) {
-        alert("Registro Actualizado");
+        alert("Registro Actualizado Exitosamente");
         location.reload();
       } else {
-        alert("ERROR UNU eee" + r);
+        alert("ERROR" + r);
       }
     }
   });
@@ -81,10 +81,10 @@ function eliminarDatos(id) {
     data: cadena,
     success: function (r) {
       if (r == 1) {
-        alert("Registro Eliminado!");
+        alert("Registro Eliminado! Exitosamente");
         location.reload();
       } else {
-        alert("ERROR UNU" + r);
+        alert("ERROR" + r);
       }
     }
   });
