@@ -122,11 +122,20 @@
 
 <?php
 if (isset($_POST["submit"])) {
-  print_r($_FILES);
+       
   if (insertar($_POST['nombre'], $_POST['precio'], $_POST['camarrotes'], $_POST['banos'], $_POST['medidas'], $_POST['capacidad'], $_POST['cantidad'], $_FILES)) {
-    echo " <br> Se alamaceno correctamente";
+   ?> 
+   <script type="text/javascript">
+    alert("Almacenado Correctamente");
+</script>
+    
+    <?php
   } else {
-    echo " <br>no  Se alamaceno correctamente";
+      ?>
+    <script type="text/javascript">
+    alert("Almacenado Incorrectamente");
+</script>
+     <?php
   }
 }
 
