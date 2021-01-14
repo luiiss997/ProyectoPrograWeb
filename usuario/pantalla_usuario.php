@@ -36,8 +36,17 @@
             Correo:
         </h4>
         <h5><?php echo $_SESSION['email']; ?></h5>
+            
+
     </div>
     <br>
+
+    <?php
+
+$link = new PDO('mysql:host=localhost;dbname=proyectoweb', 'root', ''); 
+        $id=$_SESSION['id']; 
+       
+?>
 
     <div class="text-center">
         <h3>Historial de yates rentados:</h3>
@@ -51,13 +60,17 @@
                     <th>Precio total</th>
                 </tr>
             </thead>
+            <?php 
+            
+            foreach ($link->query("SELECT u.nombre, y.nombre, y.precio,r.fecha_inicio,r.fecha_salida,r.total from usuarios u JOIN renta r on u.id=r.id_usuario JOIN yates y on y.id=r.id_yate where u.id='$id' ") as $row){  ?> 
             <tr>
-                <td>Azimut 116</td>
-                <td>7,800</td>
-                <td>21/12/2020</td>
-                <td>25/12/2020</td>
-                <td>187,200</td>
-            </tr>
+            <td><?php echo $row['nombre'] ?></td>
+    <td><?php echo $row['precio'] ?></td>
+    <td><?php echo $row['fecha_inicio'] ?></td>
+    <td><?php echo $row['fecha_salida'] ?></td>
+    <td><?php echo $row['total'] ?></td>
+      </tr>
+      <?php } ?>
         </table>
 
     </div>
