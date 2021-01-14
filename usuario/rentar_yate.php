@@ -84,7 +84,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <button type="button" class="btn btn-primary" onclick="reservar()">Reservar</button>
+                        <button id="reservar_btn" type="button" class="btn btn-primary"
+                         onclick="reservar_yate(<?php echo $_GET['id']; ?>,<?php echo $_GET['precio'];?>)">Reservar</button>
                     </div>
                 </div>
             </form>
@@ -93,13 +94,11 @@
 </div>
 
 <script type="text/javascript">
-    function reservar() {
+    function reservar_yate(id_yate, precio) {
         recogida = $('#cf-1').val();
         entrega = $('#cf-2').val();
         inicio = $('#cf-3').val();
         regreso = $('#cf-4').val();
-        precio = <?php echo $_GET['precio']; ?>
-        id_yate = <?php echo $_GET['id']; ?>
 
         cadena = "id_yate=" + id_yate +
             "&recogida=" + recogida +
@@ -116,7 +115,7 @@
                 if (r == 1) { //Cuidado
                     alert("ERROR UNU" + r);
                 } else {
-                    alert("Registro Realizado con Éxito!" + r);
+                    alert("Reservaste un yate con Éxito!" + r);
                     $('#cf-1').val("");
                     $('#cf-2').val("");
                     $('#cf-3').val("");
