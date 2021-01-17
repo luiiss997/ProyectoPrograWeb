@@ -121,8 +121,46 @@
 
 
 <?php
+$dato1=0;
+$error="";
 if (isset($_POST["submit"])) {
+       if($_POST['nombre']==""){
+        
+        $dato1=1;
        
+      }
+      if($_POST['precio']==""){
+       
+        $dato1=1;
+       
+      } if($_POST['camarrotes']==""){
+     
+        $dato1=1;
+    
+      }
+      if($_POST['banos']==""){
+      
+        $dato1=1;
+      
+      }
+      if($_POST['medidas']==""){
+      
+        $dato1=1;
+       
+      }
+      if($_POST['capacidad']==""){
+    
+        $dato1=1;
+       
+      }
+      if($_POST['cantidad']==""){
+       
+        $dato1=1;
+       
+      }
+      if($dato1==0){
+
+      
   if (insertar($_POST['nombre'], $_POST['precio'], $_POST['camarrotes'], $_POST['banos'], $_POST['medidas'], $_POST['capacidad'], $_POST['cantidad'], $_FILES)) {
    ?> 
    <script type="text/javascript">
@@ -137,7 +175,16 @@ if (isset($_POST["submit"])) {
 </script>
      <?php
   }
+}else{
+  ?>
+  <script type="text/javascript">
+  alert("Los campos no estan llenados Correctamente");
+</script>
+   <?php
 }
+}
+
+
 
 function insertar($nombre, $precio, $camarrotes, $banos, $medidas, $capacidad, $cantidad, $imagen){
   $ruta = 'img/' . $nombre . '.png';

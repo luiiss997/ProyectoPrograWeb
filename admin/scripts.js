@@ -46,6 +46,31 @@ function actualizaDatos() {
   capacidad = $('#capacidadu').val();
  cantidad = $('#cantidadu').val();
   foto_ruta = $('#fotou').val();
+   dato=0;
+  if(id==""){
+dato=1;
+  }
+  if(nombre==""){
+    dato=1;
+      }
+      if(precio==""){
+        dato=1;
+          }
+          if(camarote==""){
+            dato=1;
+              }
+              if(banos==""){
+                dato=1;
+                  }
+                  if(medidas==""){
+                    dato=1;
+                      }
+                      if(capacidad==""){
+                        dato=1;
+                          }
+                          if(cantidad==""){
+                            dato=1;
+                              }
 
 
   cadena = "id=" + id +
@@ -57,7 +82,7 @@ function actualizaDatos() {
     "&capacidad=" + capacidad +
     "&cantidad=" + cantidad +
     "&foto_ruta=" + foto_ruta;
-
+if(dato==0){
   $.ajax({
     type: "POST",
   url: "actualizaDatos.php",
@@ -71,6 +96,10 @@ function actualizaDatos() {
       }
     }
   });
+}else{
+  alert("Los datos introduccidos son incorrectos")
+}
+
 }
 
 function eliminarDatos(id) {
