@@ -83,9 +83,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <button id="reservar_btn" type="button" class="btn btn-primary"
-                         onclick="reservar_yate(<?php echo $_GET['id']; ?>,<?php echo $_GET['precio'];?>)">Reservar</button>
+                    <div class="col-lg-2">
+                        <button id="reservar_btn" type="button" class="btn btn-primary" onclick="reservar_yate(<?php echo $_GET['id']; ?>,<?php echo $_GET['precio']; ?>)">Reservar</button>
                     </div>
                 </div>
             </form>
@@ -100,29 +99,47 @@
         inicio = $('#cf-3').val();
         regreso = $('#cf-4').val();
 
-        cadena = "id_yate=" + id_yate +
-            "&recogida=" + recogida +
-            "&entrega=" + entrega +
-            "&inicio=" + inicio +
-            "&regreso=" + regreso +
-            "&precio=" + precio;
+        if (validar(recogida, entrega, inicio, regreso)) {
+            cadena = "id_yate=" + id_yate +
+                "&recogida=" + recogida +
+                "&entrega=" + entrega +
+                "&inicio=" + inicio +
+                "&regreso=" + regreso +
+                "&precio=" + precio;
 
-        $.ajax({
-            type: "POST",
-            url: "../php/rentar.php",
-            data: cadena,
-            success: function(r) {
-                if (r == 1) { //Cuidado
-                    alert("ERROR UNU" + r);
-                } else {
-                    alert("Reservaste un yate con Éxito!" + r);
-                    $('#cf-1').val("");
-                    $('#cf-2').val("");
-                    $('#cf-3').val("");
-                    $('#cf-4').val("");
+            $.ajax({
+                type: "POST",
+                url: "../php/rentar.php",
+                data: cadena,
+                success: function(r) {
+                    if (r == 1) { //Cuidado
+                        alert("ERROR UNU" + r);
+                    } else {
+                        alert("Reservaste un yate con Éxito!" + r);
+                        $('#cf-1').val("");
+                        $('#cf-2').val("");
+                        $('#cf-3').val("");
+                        $('#cf-4').val("");
+                    }
                 }
+            });
+        }
+    }
+
+    function validar(r, e, i, re) {
+        if (r == "" || e == "" || i == "" || re == "") {
+            alert("No deje campos vacíos");
+            return false;
+        } else {
+            var d = $('#cf-3').datepicker('getDate');
+            var d2 = $('#cf-4').datepicker('getDate');
+            if (d2.getTime()<d.getTime()) {
+                alert("La fecha de regreso no puede ser antes que la fecha de inicio");
+                return false;
+            }else{
+                return true;
             }
-        });
+        }
     }
 </script>
 
