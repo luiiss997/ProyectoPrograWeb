@@ -47,7 +47,8 @@
 
 <script type="text/javascript">
   function login() {
-    correo = $('#correol').val();
+    if (validar()) {
+      correo = $('#correol').val();
     pw = $('#passwordl').val();
 
     if (correo=="admin@yates.com") {
@@ -71,6 +72,18 @@
           }
         }
       });
+    }
+    }
+  }
+
+  function validar(){
+    correo = $('#correol').val();
+    pw = $('#passwordl').val();
+    if (correo==""||pw=="") {
+      $('#error').text('No deje campos vacíos');
+      return false;
+    }else{
+      return true;
     }
   }
 </script>

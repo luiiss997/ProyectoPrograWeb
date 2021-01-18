@@ -19,248 +19,53 @@
 <div class="site-section bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="login.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="login.php">Azimut 116</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
+
+      <!-- imprimir yates bd -->
+      <?php
+      $link = new PDO('mysql:host=localhost;dbname=proyectoweb', 'root', '');
+      foreach ($link->query('SELECT * from yates') as $row) {
+      ?>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="item-1">
+            <a href="login.php"><img src="admin/<?php echo $row['foto_ruta'] ?>" alt="Image" class="img-fluid"></a>
+            <div class="item-1-contents">
+              <div class="text-center">
+                <h3><a href="login.php"><?php echo $row['nombre'] ?></a></h3>
+                <div class="rating">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <div class="rent-price"><span>$<?php echo $row['precio'] ?> USD/</span>Por Día.</div>
               </div>
-              <div class="rent-price"><span>$7,800 USD/</span>Por Día.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">116 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
+              <ul class="specs">
+                <li>
+                  <span>Camarotes</span>
+                  <span class="spec"><?php echo $row['camarotes'] ?></span>
+                </li>
+                <li>
+                  <span>Baños</span>
+                  <span class="spec"><?php echo $row['banos'] ?></span>
+                </li>
+                <li>
+                  <span>Medida</span>
+                  <span class="spec"><?php echo $row['medidas'] ?> Pies</span>
+                </li>
+                <li>
+                  <span>Capacidad</span>
+                  <span class="spec"><?php echo $row['capacidad'] ?> personas</span>
+                </li>
+              </ul>
+              <div class="d-flex action">
+                <a href="login.php" class="btn btn-primary">Rentar</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="login.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="login.php">Broward 112</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$5,690 USD/</span>Por Día.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">112 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="login.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="login.php">Manhattan 75</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$4,380 USD/</span>Por Día.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">2</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">72 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">10 Personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="login.php"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="login.php">Azimut 116</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$7,800 USD/</span>Por Día.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">4</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">116 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="login.php"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="login.php">Broward 112</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$5,690 USD/</span>Por Día.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">112 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">12 personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="item-1">
-          <a href="login.php"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-          <div class="item-1-contents">
-            <div class="text-center">
-              <h3><a href="login.php">Manhattan 75</a></h3>
-              <div class="rating">
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
-              </div>
-              <div class="rent-price"><span>$4,380 USD/</span>Por Día.</div>
-            </div>
-            <ul class="specs">
-              <li>
-                <span>Camarotes</span>
-                <span class="spec">3</span>
-              </li>
-              <li>
-                <span>Baños</span>
-                <span class="spec">2</span>
-              </li>
-              <li>
-                <span>Medida</span>
-                <span class="spec">72 Pies</span>
-              </li>
-              <li>
-                <span>Capacidad</span>
-                <span class="spec">10 Personas</span>
-              </li>
-            </ul>
-            <div class="d-flex action">
-              <a href="login.php" class="btn btn-primary">Rentar</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php } ?>
+      <!-- fin imprimir -->
 
       <div class="col-12">
         <span class="p-3">1</span>
